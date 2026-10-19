@@ -1,0 +1,90 @@
+body {
+	background-color: rgb(254, 243,226)
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; 
+
+
+body::before {
+  content: "";
+  position: fixed; 
+  inset: 0;        
+  background-image: url('cake.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;   
+  z-index: -1;     
+}
+
+h1 {
+	font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; 
+	font-stretch: ultra-expanded;
+	font-style: oblique;
+	font-weight: 1000;
+	text-align: center;
+	margin-top: 0;
+	color: rgb(256,256,256);
+}
+
+
+}
+#top-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #1F2A44;
+  padding-left: 0;
+  margin: 0; 
+  padding: 0;
+}
+
+p {
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
+	padding-left: 130px;
+	transform: translateY(var(--y));
+	padding-bottom: 30px;
+	color: #2E3440;
+}
+
+#sidebar {
+    min-width: 75px;
+	max-width: 100px;
+    height: 50vh;          
+    position: fixed;        
+    top: 1;
+    left: 0;
+    background-color: #1F2A44;
+    padding-top: 20px;
+    z-index: 3;
+}
+
+li {
+	font-family: Rockwell Extra Bold,Rockwell Bold,monospace;
+	
+}
+
+
+
+a {
+  display: inline-block; 
+  transition: transform 0.3s ease; 
+  text-decoration: none;
+	color: rgb(256,256,256);
+	background-color: #2C3E66;
+	padding-left: 10px;
+	filter: brightness(var(--a));
+}
+
+a:hover {
+  transform: translateX(20px) scale(1.2);
+   background-color: #B8902F;
+
+}
+
+#backpic {
+	opacity: 0.2;
+	z-index:1
+}
