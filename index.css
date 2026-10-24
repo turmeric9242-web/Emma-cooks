@@ -125,4 +125,11 @@ p {
   h1 {
     font-size: 1.8rem;
   }
+  img {
+   max-width: 75vw;
+   max-height: 37vh;
+   width: auto;
+   height: auto;
+   object-fit: contain; /* Keeps the full image visible without distortion */
+ }
 }
