@@ -2,4 +2,4 @@
 User-agent: *
 Disallow: 
 Disallow: https://emmacookingshow.vercel.app/googleae4af1eb06bf7c47.html
-Sitemap: https://emmacookingshow.vercel.app/sightmap
+Sitemap: https://emmacookingshow.vercel.app/sitemap.xml
