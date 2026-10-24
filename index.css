@@ -19,7 +19,7 @@ body::before {
   z-index: -1;     
 }
 
-#heading {
+#h1 {
 	font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; 
 	font-stretch: ultra-expanded;
 	font-style: oblique;
