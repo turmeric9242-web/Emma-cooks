@@ -86,7 +86,7 @@ p {
   color: #2E3440;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   #sidebar {
     position: relative;
     width: 100%;
